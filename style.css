@@ -1,0 +1,675 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #00308F; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navigation styles */
+.custom-navbar {
+    background-color: #333; /* Change the background color as desired */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.nav-link:hover {
+    color: #ffcc00; 
+}
+
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/* Hero Section */
+
+
+.hero-section {
+    background-image: url('your-image-path.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+.banner-text {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #151514;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #151514; 
+}
+/* Certificate section styles */
+
+/* Certificate section styles */
+
+.Certificate-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.Certificate-section h1 {
+    color: #0d0d0d; 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #151514; 
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+.Certificate-section {
+    background-color: #f5f5f5; /* Change background color as desired */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Certificate-section .container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    width: 100%;
+    padding: 0 15px;
+}
+
+   
+
+
+
+
+/* About Section */
+/* About Section */
+
+.about-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #333; 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-content p {
+    color: #555; 
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.section-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-content li {
+    color: #777; 
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.section-content li:before {
+    content: '\2022'; 
+    color: #007bff; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+/* Services Section */
+
+.services-section {
+    background-color: #f5f5f5; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services-section h2 {
+    color: #333; 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    height: 100%;
+}
+
+.section-content h3 {
+    color: #007bff; 
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.section-content p {
+    color: #666; 
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Certificate Details Section */
+
+
+#userInfoPanel {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    border: 2px solid #ff9900;
+    border-radius: 8px;
+    animation: slideIn 2s;
+}
+
+#userInfoPanel h3.panel-title {
+    font-size: 24px;
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+
+#userInfoPanel .panel-body {
+    color: #333333;
+}
+
+#userInfoPanel .panel-body .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#userInfoPanel .panel-body .row div {
+    flex: 1;
+    padding: 10px;
+}
+
+#userInfoPanel .panel-body strong {
+    font-weight: bold;
+}
+
+#userInfoPanel .panel-body span {
+    font-weight: normal;
+}
+
+
+/* Courses Section */
+.courses-section {
+    background-color: #f8f8f8; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.courses-section h2 {
+    color: #333; 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    height: 100%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: fadeInUp 0.5s ease-out; 
+}
+
+.section-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.section-content h3 {
+    color: #007bff; 
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.section-content p {
+    color: #666; 
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Courses section styles with scroll animation */
+
+.courses-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.courses-section h2 {
+    color: #333; 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    height: 100%;
+    opacity: 0; 
+    transform: translateY(30px); 
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section-content.in-view {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+/* Existing styles */
+
+.section-content {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    height: 100%;
+    opacity: 0; 
+    transform: translateY(30px); 
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    margin-bottom: 30px; 
+}
+
+.section-content.in-view {
+    opacity: 1; 
+    transform: translateY(0);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .section-content {
+        margin-bottom: 15px; 
+        width: calc(100% - 40px); 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Testimonials Section */
+
+.testimonials-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    padding: 30px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.testimonial p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    color: #777; 
+    font-style: italic;
+    font-size: 14px;
+}
+
+.testimonials-section {
+    padding: 100px 0;
+    animation: fadeIn 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.testimonials-section::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    z-index: -1;
+    border-radius: 20px;
+    background: linear-gradient(to right, #ff9900, #ff0, #ff9900);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.testimonials-section:hover::before {
+    opacity: 1;
+    animation: spark 1s linear infinite;
+}
+
+@keyframes spark {
+    0% {
+        box-shadow: 0 0 5px #ff9900, 0 0 10px #ff9900, 0 0 15px #ff9900, 0 0 20px #ff9900, 0 0 25px #ff9900, 0 0 30px #ff9900, 0 0 35px #ff9900;
+    }
+    100% {
+        box-shadow: 0 0 5px #ff9900, 0 0 10px #ff9900, 0 0 15px #ff9900, 0 0 20px #ff9900, 0 0 25px #ff9900, 0 0 30px #ff9900, 0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 45px #ff9900, 0 0 50px #ff9900;
+    }
+}
+
+/* Hover Animation */
+.testimonial:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+
+/* Contact section styles */
+
+.contact-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #333; 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 30px;
+}
+
+.section-content h3 {
+    color: #007bff; 
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.section-content p {
+    color: #666; 
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.section-content form .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section-content form .form-control:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.section-content form textarea.form-control {
+    resize: vertical;
+}
+
+.section-content form .btn-primary {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-content form .btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links li a {
+    color: #ff9900;
+    font-size: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spark {
+    0% {
+        box-shadow: 0 0 5px #ff9900, 0 0 10px #ff9900, 0 0 15px #ff9900, 0 0 20px #ff9900, 0 0 25px #ff9900, 0 0 30px #ff9900, 0 0 35px #ff9900;
+    }
+    100% {
+        box-shadow: 0 0 5px #ff9900, 0 0 10px #ff9900, 0 0 15px #ff9900, 0 0 20px #ff9900, 0 0 25px #ff9900, 0 0 30px #ff9900, 0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 45px #ff9900, 0 0 50px #ff9900;
+    }
+}
+
+
+/* Join and Login Section */
+.join-login-section {
+    padding: 50px 0;
+    background-color: #282c34;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+
+/* .join-login-section:hover {
+    box-shadow: 0 0 5px #61dafb, 0 0 10px #61dafb, 0 0 15px #61dafb;
+    animation: spark 1s linear infinite;
+} */
+
+.join-login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.join-login-content .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.join-login-content .btn-primary {
+    background-color: #61dafb;
+    color: #282c34;
+}
+
+.join-login-content .btn-primary:hover {
+    background-color: #51c4d3;
+    transform: scale(1.1);
+}
+
+.join-login-content .btn-secondary {
+    background-color: #00adb5;
+    color: #ffffff;
+}
+
+.join-login-content .btn-secondary:hover {
+    background-color: #00818a;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* Spark Animation */
+@keyframes spark {
+    0% {
+        box-shadow: 0 0 5px hsl(52, 100%, 50%), 0 0 10px hsl(52, 100%, 50%), 0 0 15px hsl(52, 100%, 50%);
+    }
+    100% {
+        box-shadow: 0 0 5px hsl(52, 100%, 50%), 0 0 10px hsl(52, 100%, 50%), 0 0 15px hsl(52, 100%, 50%), 0 0 20px hsl(52, 100%, 50%), 0 0 25px hsl(52, 100%, 50%), 0 0 30px hsl(52, 100%, 50%), 0 0 35px hsl(52, 100%, 50%), 0 0 40px hsl(52, 100%, 50%), 0 0 45px hsl(52, 100%, 50%), 0 0 50px hsl(52, 100%, 50%);
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
